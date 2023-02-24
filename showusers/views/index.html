@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <form action="/logout" method="post">
+        <h2>
+            Hi <%= username%>!! you are logged in
+        </h2>
+        <br>
+        <br>
+        <h3>
+            Here are other users who are logged in
+        </h3>
+        <br>
+        <ul>
+            <% usersList.forEach(function(user) { %>
+                <li><%= user %></li>
+              <% }); %>
+        </ul>
+
+        <br>
+        <br>
+        
+                <div class="container">
+                    <button type="submit">Log Me Out</button>
+                </div>
+        </form>
+    </body>
+</html>

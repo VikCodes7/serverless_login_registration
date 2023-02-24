@@ -1,0 +1,21 @@
+{
+  "name": "userlogin",
+  "version": "1.0.0",
+  "description": "This is responsible for user login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "sai vikas",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^10.2.0",
+    "nodemon": "^2.0.16"
+  }
+}
